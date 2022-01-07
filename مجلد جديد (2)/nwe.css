@@ -1,0 +1,71 @@
+body{
+    background-color: darkgray;
+}
+
+.menu{
+
+    background-color: hsla(224, 56%, 50%, 0.377);
+    height: 60px;
+    width: 100%;
+}
+.menu #logo{
+    float: left;
+    height: 30px;
+    padding: 15px 30px ;
+    font-size: 1.90em;
+    line-height: 30px;
+    
+}
+.menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    float: left;
+}
+
+.menu >ul >li {
+    float: left;
+
+}
+.listf{
+    display: inline-block;
+   height: 30px;
+    padding: 15px 20px ;
+    line-height: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.listf:hover{
+  background-color: maroon;
+    
+}
+.cont{
+    position: absolute;
+    background-color: hsla(224, 56%, 50%, 0.377);
+    overflow: hidden;
+    top: 68px;
+  max-height: 0px;
+    
+
+}
+.one{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px ;
+}
+.sub ul{
+    list-style-type: none;
+    padding:0px;
+}
+.sub ul li .one:hover{
+    background-color: maroon;
+  
+   }
+
+   .menu ul li:hover .cont{
+    max-height: 100%;
+    transition: 0.5s ease-in;
+   }
+   
